@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App4.teste"
+             x:Class="App4.teste.MainPage">
+    <!--
+    <StackLayout>
+        <Label x:Name="lblTitulo"  Text="Bem vindo ao Xamarin Forms!" />
+        <Label Text="Ricardo Takuno" />
+        <Button Text="Click aqui" Clicked="OnButtonClicked" />
+        <Entry Text="Digite seu nome aqui!!!" Keyboard="Text" />
+        <Entry Text="Digite seu e-mail" Keyboard="Email" />
+        <Entry Text="Digite seu telefone" Keyboard="Telephone" />
+        <Entry Text="Digite sua idade" Keyboard="Numeric" />
+    </StackLayout>
+         -->
+    <StackLayout>
+        <Label Text="CALCULADORA" 
+               HorizontalOptions="Center" />
+        <Label Text="Valor Total R$" />
+        <Entry x:Name="ValorTotal" Text="" Keyboard="Numeric" />
+        <Label Text="Nº das Parcelas" />
+        <Entry x:Name="NumeroParcelas" Text="" Keyboard="Numeric" />
+        <Entry x:Name="Desconto" Text="Desconto" Keyboard="Numeric" />
+        <Entry x:Name="Acrescimo" Text="Acrescimo" Keyboard="Numeric" />
+        <Label Text="%" />
+        <Entry x:Name="Porcentagem" Text="" Keyboard="Numeric" />
+        <Button Text="CALCULAR" Clicked="btnCalcular" />
+        <Label Text="Valor à Pagar" />
+        <Entry x:Name="ValorPagar" Text="" Keyboard="Numeric" />
+        <Label Text="Valor das Parcelas" />
+        <Entry x:Name="ValorParcelas" Text="" Keyboard="Numeric" />
+    </StackLayout>
+</ContentPage>
