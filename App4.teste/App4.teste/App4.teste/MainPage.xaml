@@ -18,17 +18,17 @@
         <Label Text="CALCULADORA" 
                HorizontalOptions="Center" />
         <Label Text="Valor Total R$" />
-        <Entry x:Name="ValorTotal" Text="" Keyboard="Numeric" />
+        <Entry x:Name="txtValorTotal" Text="" Keyboard="Numeric" />
         <Label Text="Nº das Parcelas" />
-        <Entry x:Name="NumeroParcelas" Text="" Keyboard="Numeric" />
-        <Entry x:Name="Desconto" Text="Desconto" Keyboard="Numeric" />
-        <Entry x:Name="Acrescimo" Text="Acrescimo" Keyboard="Numeric" />
+        <Entry x:Name="txtNumeroParcelas" Text="" Keyboard="Numeric" />
+        <Entry x:Name="txtDesconto" Text="Desconto" Keyboard="Numeric" />
+        <Entry x:Name="txtAcrescimo" Text="Acrescimo" Keyboard="Numeric" />
         <Label Text="%" />
-        <Entry x:Name="Porcentagem" Text="" Keyboard="Numeric" />
+        <Entry x:Name="txtPorcentagem" Text="" Keyboard="Numeric" />
         <Button Text="CALCULAR" Clicked="btnCalcular" />
         <Label Text="Valor à Pagar" />
-        <Entry x:Name="ValorPagar" Text="" Keyboard="Numeric" />
+        <Entry x:Name="txtValorPagar" Text="" Keyboard="Numeric" />
         <Label Text="Valor das Parcelas" />
-        <Entry x:Name="ValorParcelas" Text="" Keyboard="Numeric" />
+        <Entry x:Name="txtValorParcelas" Text="" Keyboard="Numeric" />
     </StackLayout>
 </ContentPage>
