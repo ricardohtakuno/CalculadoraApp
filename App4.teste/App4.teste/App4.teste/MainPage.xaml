@@ -12,7 +12,7 @@
         <Entry Text="Digite seu e-mail" Keyboard="Email" />
         <Entry Text="Digite seu telefone" Keyboard="Telephone" />
         <Entry Text="Digite sua idade" Keyboard="Numeric" />
-    </StackLayout>
+    </StackLayout> 
          -->
     <StackLayout>
         <Label Text="CALCULADORA" 

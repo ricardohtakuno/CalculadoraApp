@@ -36,7 +36,7 @@ namespace App4.teste
 
             if(txtDesconto.Text == "")
             {
-                ValorPagar = ValorTotal - porcentagem;
+                ValorPagar = ValorTotal - porcentagem; 
                 ValorParcelas = ValorPagar / NumeroParcelas;
                 txtValorPagar.Text = ValorPagar.ToString();
                 txtValorParcelas.Text = ValorParcelas.ToString();
